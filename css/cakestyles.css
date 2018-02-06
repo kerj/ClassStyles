@@ -1,0 +1,14 @@
+.flashy {
+  color: red;
+  font-style:italic;
+}
+
+.best {
+  font-weight: bold;
+  font-size: 140%;
+  color: gold;
+}
+
+body{
+  background-color: slategray;
+}
