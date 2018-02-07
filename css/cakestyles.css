@@ -9,6 +9,22 @@
   color: gold;
 }
 
+img {
+  float:right;
+  max-width: 300px;
+  max-height: 300px;
+  padding-right: 40%;
+  display:inline-block;
+}
+
+.selection {
+overflow-y:scroll;
+box-sizing: border-box;
+border: 6px solid red;
+width: 75%;
+float:right;
+}
+
 ul  {
   list-style-type: none;
   margin: 0;
@@ -22,13 +38,14 @@ ul  {
 li a  {
   display: block;
   color: #000;
-  padding: 8px;
+  padding: 20px;
   text-decoration: none;
+  font-size: 20px;
 }
 
 li a:hover {
-  background-color: #555;
-  color: white;
+  background-color: #299;
+  color: #999;
 }
 
 body{
