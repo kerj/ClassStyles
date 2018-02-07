@@ -9,6 +9,28 @@
   color: gold;
 }
 
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: slategray;
+  overflow: hidden;
+  position: sticky;
+}
+
+li a  {
+  display: block;
+  color: #000;
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
 body{
   background-color: slategray;
 }
